@@ -1,0 +1,27 @@
+// the JIRS implementation will not be done now as
+// it'll take too much time to integerate with PHP
+// i shall implement the Vector space model myself
+
+These are the steps i'm going to for JIRS
+ bin/jirs/jpm.sh bin/jirs/config/runs.xml CreateDocList -collection tmpcol -language arabic -folder tmp
+ bin/jirs/jpm.sh bin/jirs/config/runs.xml Indexing -collection tmpcol -language arabic -folder tmp
+
+// this is not required to get the results
+# bin/jirs/jpm.sh bin/jirs/config/runs.xml ViewDatabase -collection tmpcol -language arabic -folder tmp
+# bin/jirs/jpm.sh bin/jirs/config/runs.xml SearchPassagesServer -collection tmpcol -language arabic -folder tmp
+
+
+bin/jirs/jpm.sh bin/jirs/config/runs.xml SearchPassages -client/server no -repeat no -collection tmpcol -language arabic
+
+
+# project require LibSVM 
+# installation video on windows
+# http://www.youtube.com/watch?v=gePWtNAQcK8
+# PEAR is required and them install SVM extension
+
+
+To run the trainer 
+=======================
+use the commandline : 
+php train.php 
+and setback and relax

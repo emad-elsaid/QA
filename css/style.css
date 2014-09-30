@@ -1,0 +1,118 @@
+@import url('960_12_col.css');
+@font-face {
+  font-family: 'Droid Arabic Kufi';
+  font-style: normal;
+  font-weight: 400;
+  src: url(DroidKufi-Regular.eot?#iefix) format('embedded-opentype'),
+       url(DroidKufi-Regular.woff) format('woff'),
+       url(DroidKufi-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Droid Arabic Kufi';
+  font-style: normal;
+  font-weight: 700;
+  src: url(DroidKufi-Bold.eot?#iefix) format('embedded-opentype'),
+       url(DroidKufi-Bold.woff) format('woff'),
+       url(DroidKufi-Bold.ttf) format('truetype');
+}
+
+textarea:focus, input:focus{
+    outline: 0;
+}
+
+body{
+	color: #eee;
+	font-size: 13px;
+	color: #333;
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Droid Arabic Kufi', tahoma;
+}
+
+.logo{
+	text-align: center;
+}
+
+textarea, input, select,button{
+	color: #eee;
+	font-size: 13px;
+	color: #333;
+	font-family: 'Droid Arabic Kufi', tahoma;
+}
+
+.header{
+	padding: 30px 30px 10px 30px;
+	background-color: #eee;
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 30px;
+}
+
+.ask{
+}
+
+.ask .q{
+	display: block;
+	width: 897px;
+	margin: 0px;
+	padding: 0px;
+	direction: rtl;
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	margin-bottom: 10px;
+	padding: 20px;
+	box-shadow: 0px 2px 3px #eee inset;
+}
+
+.ask .submit{
+	padding: 5px 30px;
+
+}
+
+.results{
+	direction: rtl;
+	margin-bottom: 100px;
+	min-height: 400px;
+}
+
+.info{
+	padding: 10px;
+	border: 1px solid #c4975d;
+	background: #f4e57d;
+	border-radius: 3px;
+	margin-top: 10px;
+}
+
+.success{
+	padding: 10px;
+	border: 1px solid #81c45d;
+	background: #dcf4c5;
+	border-radius: 3px;
+	margin-top: 10px;
+}
+
+.info label,
+.success label{
+	font-weight: bold;
+}
+
+.links{
+	margin-top: 10px;
+}
+
+.links a{
+	color: #333;
+}
+
+footer{
+	background: #555;
+	color: #ccc;
+	font-size: 12px;
+	text-align: right;
+	border-top: 1px solid #333;
+	padding: 20px 0px;
+}
+
+footer a{
+	color: #fff;
+
+}
